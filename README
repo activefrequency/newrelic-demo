@@ -1,0 +1,3 @@
+This should work for Django 1.2-1.4; note that DEBUG is ON.
+
+/test-string/, /test-float/ and /test-decimal/ should all return '1.0' - HttpResponse coerces into strings.
