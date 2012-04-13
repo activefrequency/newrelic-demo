@@ -2,7 +2,7 @@ import os
 import sys
 import site
 # use the virtualenv's packages
-site.addsitedir( os.path.abspath(os.path.join(os.path.dirname(__file__), "../env/lib/python2.6/site-packages")))
+site.addsitedir( os.path.abspath(os.path.join(os.path.dirname(__file__), "../../env/lib/python2.6/site-packages")))
 # put the Django project on sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../")))
 
